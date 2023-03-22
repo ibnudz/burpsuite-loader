@@ -1,0 +1,72 @@
+[
+  {
+    "ProfileName": "Test_XSS_discover",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "true,{CURRENT_PATH}?a\u003d\u003cu\u003etest1337\u0026b\u003d\u003cu\u003etest1337\u0026c\u003d\u003cu\u003etest1337\u0026d\u003d\u003cu\u003etest1337\u0026e\u003d\u003cu\u003etest1337\u0026f\u003d\u003cu\u003etest1337\u0026g\u003d\u003cu\u003etest1337\u0026h\u003d\u003cu\u003etest1337\u0026i\u003d\u003cu\u003etest1337\u0026j\u003d\u003cu\u003etest1337\u0026k\u003d\u003cu\u003etest1337\u0026l\u003d\u003cu\u003etest1337\u0026m\u003d\u003cu\u003etest1337\u0026n\u003d\u003cu\u003etest1337\u0026o\u003d\u003cu\u003etest1337\u0026p\u003d\u003cu\u003etest1337\u0026q\u003d\u003cu\u003etest1337\u0026r\u003d\u003cu\u003etest1337\u0026s\u003d\u003cu\u003etest1337\u0026t\u003d\u003cu\u003etest1337\u0026v\u003d\u003cu\u003etest1337\u0026w\u003d\u003cu\u003etest1337\u0026x\u003d\u003cu\u003etest1337\u0026y\u003d\u003cu\u003etest1337\u0026z\u003d\u003cu\u003etest1337"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,\u003cu\u003etest1337"
+    ],
+    "Tags": [
+      "All",
+      "XSS"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": true,
+    "OnlyHTTP": false,
+    "IsContentType": true,
+    "ContentType": "text/html",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 2,
+    "MaxRedir": 4,
+    "requestType": 1,
+    "rawRequest": "",
+    "payloadPosition": 1,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "Test_XSS_discover",
+    "IssueSeverity": "Medium",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "\n\n\u003cbr/\u003e\u003cbr/\u003e- PAYLOAD: \u003cbr/\u003e\u003cpayload\u003e\n\u003cbr/\u003e\u003cbr/\u003e\n- GREP: \u003cbr/\u003e\u003cgrep\u003e",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      66
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
+  }
+]

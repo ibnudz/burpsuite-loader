@@ -1,0 +1,43 @@
+All
+CVEs
+RCE
+XSS
+XXE
+CORS
+CRLF
+Drupal
+Wordpress
+SQLi
+SSRF
+SSTI
+XSS GET Parameters
+XSS POST Parameters
+SSTI GET Parameters
+SSTI POST Parameters
+SSRF GET Parameters
+All GET Parameters
+All POST Parameters
+SSRF POST Parameters
+SQLi GET Parameters
+SQLi POST Parameters
+SSRF GET Parameters
+SSRF POST Parameters
+Open Redirect GET Parameters
+Open Redirect POST Parameters
+CRLF GET Parameters
+CRLF POST Parameters
+Blind XSS GET Parameters
+Blind XSS POST Parameters
+RCE POST Parameters
+RCE GET Parameters
+Blind XSS
+Open Redirect
+Path Traversal POST Parameters
+Path Traversal GET Parameters
+Path Traversal
+X-Headers-Collab
+Forgot Password
+Test XSS GET params
+Test XSS Post params
+Fuzzing Files
+Actuators

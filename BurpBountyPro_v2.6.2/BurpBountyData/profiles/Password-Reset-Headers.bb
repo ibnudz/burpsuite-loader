@@ -1,0 +1,83 @@
+[
+  {
+    "ProfileName": "Password-Reset-Headers",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "true,yoursite.com"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,TESTDEMO"
+    ],
+    "Tags": [
+      "All",
+      "Forgot Password"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "isHeaderValue": true,
+    "sequence": false,
+    "NewHeaders": [
+      "X-Forwarded-For",
+      "X-Host",
+      "X-Forwarded-Server",
+      "X-Original-URL",
+      "X-Rewrite-URL",
+      "Forwarded",
+      "X-Forwarded-Host",
+      "Host"
+    ],
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
+    "payloadPosition": 1,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "Password-Reset-Headers",
+    "IssueSeverity": "High",
+    "IssueConfidence": "Certain",
+    "IssueDetail": "",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      64,
+      73,
+      78
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
+  }
+]

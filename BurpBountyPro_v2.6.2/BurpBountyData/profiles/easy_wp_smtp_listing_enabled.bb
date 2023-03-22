@@ -1,0 +1,73 @@
+[
+  {
+    "ProfileName": "Easy_wp_smtp_listing_enabled",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@burpbounty",
+    "Payloads": [
+      "true,/wp-content/plugins/easy-wp-smtp/"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [
+      "true,,Index of /wp-"
+    ],
+    "Tags": [
+      "All",
+      "Wordpress"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "isHeaderValue": false,
+    "sequence": false,
+    "NewHeaders": [],
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 0,
+    "MaxRedir": 0,
+    "requestType": 1,
+    "rawRequest": "",
+    "payloadPosition": 1,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "easy_wp_smtp_listing_enabled",
+    "IssueSeverity": "High",
+    "IssueConfidence": "Firm",
+    "IssueDetail": "SMTP WP Plugin Directory listing enabled\n\nMore info at:\nhttps://blog.nintechnet.com/wordpress-easy-wp-smtp-plugin-fixed-zero-day-vulnerability/",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      66,
+      64
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false,
+    "changeHttpRequest": false,
+    "showIssue": false,
+    "changeHttpRequestType": 1
+  }
+]
